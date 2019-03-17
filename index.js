@@ -2,7 +2,7 @@
 const Discord = require("discord.js")
 
 const client = new Discord.Client();
-client.login("NTQwMjI5NTY0ODExNDQ0MjQ0.DzTPXQ.j-hu4kZSthqhzsuOCh8Gba3ZniM");
+client.login('process.env.TOKEN');
 
 
 const sql = require("sqlite");
